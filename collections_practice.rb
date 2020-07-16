@@ -34,3 +34,6 @@ def find_a(array)
     character if character.start_with?("a")
   end.compact
 end
+
+
+
