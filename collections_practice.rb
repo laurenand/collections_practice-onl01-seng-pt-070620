@@ -29,3 +29,8 @@ def kesha_maker(array)
   end.flatten
 end
 
+def find_a(array)
+  array.map do |character|
+    character if character.start_with?("a")
+  end.compact
+end
